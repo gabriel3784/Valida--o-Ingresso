@@ -1,0 +1,31 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+/* Config Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header and Links Social Media */
+header {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-end;
+}
+header .logo h2 {  
+    font-size: 37px;
+    font-family: 'Dancing Script', cursive;
+}
+header .social {
+    margin-right: 15px;
+}
+header .social a{
+    padding: 10px;
+}
+header .social a img {
+    width: 30px;
+}
